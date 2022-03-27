@@ -1,0 +1,5 @@
+[target.rx-none-elf]
+rustflags = [
+    "-C", "link-arg=-Tmemory.ld",
+]
+
